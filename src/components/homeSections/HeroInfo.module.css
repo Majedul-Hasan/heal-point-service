@@ -1,0 +1,18 @@
+        
+.brushUnderline { 
+  position: relative;
+}
+
+.brushUnderline::before {
+  content: "";
+  position: absolute;
+ /* right: 15%; */
+  bottom: -8px;
+  width: 100%;
+  height: 18px;
+  transform: skewX(-12deg)  skewY(-2deg) ;
+  background: #FC7D3E;
+  border-radius: 25px;
+  z-index: -1;
+}
+    

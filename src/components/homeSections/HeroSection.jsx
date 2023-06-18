@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import { BsFillPlayFill } from 'react-icons/bs';
 import { FaLocationArrow } from 'react-icons/fa';
+import HeroInfo from './HeroInfo';
 
 const HeroSection = () => {
   return (
@@ -65,22 +65,7 @@ const HeroSection = () => {
             <div></div>
             <div></div>
           </div>
-          <div>
-            <button className='btn btn-outline uppercase'>
-              mental health at 30's
-            </button>
-            <h2>
-              Beat your <span>anxiety</span> with therapy
-            </h2>
-            <p>To live your life to the fullest, we're continuing to </p>
-            <div>
-              <button>Get Help</button>
-              <button>
-                <BsFillPlayFill />{' '}
-              </button>{' '}
-              Play reviews
-            </div>
-          </div>
+          <HeroInfo />
         </div>
       </div>
     </div>

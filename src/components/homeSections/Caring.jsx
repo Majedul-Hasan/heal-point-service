@@ -11,7 +11,7 @@ import { BsArrowUpRight } from 'react-icons/bs';
 const Caring = () => {
   return (
     <>
-      <div className='flex items-center md:gap-16 justify-center bg-[#003c2a] text-white py-16 px-24 tracking-wider'>
+      <div className='flex flex-col  md:flex-row-reverse gap-4 md:gap-24 items-center  justify-center bg-[#003c2a] text-white py-20 px-24 tracking-wider h-[750px]'>
         <div className=''>
           <div>
             <button className='btn btn-outline border-2 text-white hover:bg-orange-500 border-white rounded-full uppercase'>
@@ -33,7 +33,7 @@ const Caring = () => {
             <span>enhance sleep quality.</span>
           </div>
         </div>
-        <div className='  h-[62vh] '>
+        <div className='h-full py-2'>
           <>
             <Swiper
               direction={'vertical'}
