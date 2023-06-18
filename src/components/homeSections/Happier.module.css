@@ -1,0 +1,14 @@
+.happier{
+    height: 500px;
+    /* background-color: aquamarine; */
+    /* clip-path: polygon(50% 0%, 73% 22%, 98% 35%, 84% 64%, 79% 91%, 52% 86%, 21% 91%, 17% 62%, 2% 35%, 31% 22%); */
+   
+}
+
+.bac{
+    background-image: url('../../../public/static/Web-assignment-01.png'), aquamarine;
+    height: 450px;
+    width: 450px;
+    
+    background-position: ;
+}
