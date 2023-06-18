@@ -4,6 +4,7 @@ import { FaLocationArrow } from 'react-icons/fa';
 import HeroInfo from './HeroInfo';
 import Happier from './Happier';
 import Calm from './Calm';
+import Relaxed from './Relaxed';
 
 const HeroSection = () => {
   return (
@@ -13,20 +14,8 @@ const HeroSection = () => {
           <div className='grid grid-cols-2'>
             <Happier />
             <Calm />
+            <Relaxed />
 
-            <div>
-              <span>relaxed</span>
-              <span>
-                <FaLocationArrow />
-              </span>
-              <div>
-                <Image
-                  width={200}
-                  height={200}
-                  alt='Happier'
-                  src='/static/photo-1548142813-c348350df52b.jfif'></Image>
-              </div>
-            </div>
             <div>
               <span>positive</span>
               <span>
