@@ -11,7 +11,7 @@ import {
 function Cappier() {
   return (
     <>
-      <div className={`${styles.happier} relative  w-96 mt-28 `}>
+      <div className={`${styles.happier} relative  w-96 mt-20 `}>
         <MouseParallaxContainer
           className='parallax  w-96 h-full '
           resetOnLeave>
@@ -35,7 +35,7 @@ function Cappier() {
             factorY={0.2}>
             <div className='ml-auto mt-28 mr-2 w-[350px] relative'>
               <Image
-                className='absolute'
+                className='absolute rounded-xl'
                 width={350}
                 height={350}
                 alt='Happier'

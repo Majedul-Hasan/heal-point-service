@@ -5,35 +5,22 @@ import HeroInfo from './HeroInfo';
 import Happier from './Happier';
 import Calm from './Calm';
 import Relaxed from './Relaxed';
+import Positive from './Positive';
 
 const HeroSection = () => {
   return (
     <div className='my-3'>
       <div className='hero min-h-screen '>
-        <div className='hero-content flex-col lg:flex-row-reverse'>
-          <div className='grid grid-cols-2'>
+        <div className='hero-content flex-col lg:flex-row'>
+          <div className='flex-1'>
+            <HeroInfo />
+          </div>
+          <div className='flex-1 grid grid-cols-2 gap-10'>
             <Happier />
             <Calm />
             <Relaxed />
-
-            <div>
-              <span>positive</span>
-              <span>
-                <FaLocationArrow />
-              </span>
-              <div>
-                <Image
-                  width={200}
-                  height={200}
-                  alt='Happier'
-                  src='/static/photo-1548142813-c348350df52b.jfif'></Image>
-              </div>
-            </div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <Positive />
           </div>
-          <HeroInfo />
         </div>
       </div>
     </div>

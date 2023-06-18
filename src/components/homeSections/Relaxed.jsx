@@ -18,14 +18,14 @@ function Relaxed() {
           <MouseParallaxChild
             factorX={0.1}
             factorY={0.3}>
-            <span className='absolute bg-emerald-500 px-3 py-1 rounded-lg bottom-16 left-5 '>
+            <span className='absolute bg-emerald-500 px-3 py-1 rounded-lg top-80 left-5 '>
               Relaxed
             </span>
           </MouseParallaxChild>
           <MouseParallaxChild
             factorX={0.1}
             factorY={0.02}>
-            <span className='absolute z-10  px-3 py-1 rounded-lg bottom-28 left-20 origin-top-left '>
+            <span className='absolute z-10  px-3 py-1 rounded-lg top-72 left-20 origin-top-left '>
               <FaLocationArrow />
             </span>
           </MouseParallaxChild>
