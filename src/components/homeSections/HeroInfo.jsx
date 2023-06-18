@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { BsFillPlayFill } from 'react-icons/bs';
-import { IoIosArrowForward } from 'react-icons/Io';
+import { IoIosArrowForward } from 'react-icons/io';
 import styles from './HeroInfo.module.css';
 
 const HeroInfo = () => {
