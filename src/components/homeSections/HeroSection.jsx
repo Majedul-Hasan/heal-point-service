@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import React from 'react';
-import { FaLocationArrow } from 'react-icons/fa';
 import HeroInfo from './HeroInfo';
 import Happier from './Happier';
 import Calm from './Calm';
